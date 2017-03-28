@@ -1,0 +1,16 @@
+main: me.Tiernanator.Seats.Main
+version: 1.0
+name: Seats
+description: Emm, sitting...?
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: [Utilities, MagicSigns]
+prefix: Seats
+softdepend: []
+loadbefore: []
+
+commands:
+    sit:
+        description: It's always good to sit down.
