@@ -7,15 +7,15 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
 import me.Tiernanator.MagicSigns.Events.CustomEvents.CustomSignClickEvent;
-import me.Tiernanator.Seats.Main;
+import me.Tiernanator.Seats.SeatsMain;
 import me.Tiernanator.Seats.Seat;
 import me.Tiernanator.Utilities.Players.SelectAction;
 
 public class OnSignInteract implements Listener {
 
-	private Main plugin;
+	private SeatsMain plugin;
 
-	public OnSignInteract(Main main) {
+	public OnSignInteract(SeatsMain main) {
 		plugin = main;
 	}
 

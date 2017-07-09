@@ -1,0 +1,15 @@
+main: me.Tiernanator.Seats.SeatsMain
+version: 1.0
+name: Seats
+description: A Plugin that allows you to sit wherever you please.
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: [MagicSigns, Utilities]
+prefix: Seat
+softdepend: []
+loadbefore: []
+commands:
+    sit:
+        description: Sit down when you need a rest.

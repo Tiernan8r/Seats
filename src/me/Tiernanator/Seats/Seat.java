@@ -13,8 +13,8 @@ import me.Tiernanator.Utilities.MetaData.MetaData;
 
 public class Seat {
 	
-	private static Main plugin;
-	public static void setPlugin(Main main) {
+	private static SeatsMain plugin;
+	public static void setPlugin(SeatsMain main) {
 		plugin = main;
 	}
 	

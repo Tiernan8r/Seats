@@ -8,17 +8,17 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import me.Tiernanator.Colours.Colour;
-import me.Tiernanator.Seats.Main;
+import me.Tiernanator.Seats.SeatsMain;
 import me.Tiernanator.Seats.Seat;
 
 public class Sit implements CommandExecutor {
 
 	@SuppressWarnings("unused")
-	private static Main plugin;
+	private static SeatsMain plugin;
 
 	private ChatColor warning = Colour.WARNING.getColour();
 
-	public Sit(Main main) {
+	public Sit(SeatsMain main) {
 		plugin = main;
 	}
 

@@ -7,7 +7,7 @@ import me.Tiernanator.Seats.Commands.Sit;
 import me.Tiernanator.Seats.Events.OnSeatLeave;
 import me.Tiernanator.Seats.Events.OnSignInteract;
 
-public class Main extends JavaPlugin {
+public class SeatsMain extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
